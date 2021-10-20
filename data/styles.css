@@ -210,7 +210,7 @@ footer .titulo-seccion {
   color: white;
 }
 
-input {
+.input {
   text-align: center;
   width: 330px;
   height: 25px;
@@ -231,4 +231,22 @@ textarea {
   outline: none;
   border: 1px solid white;
   color: white;
+}
+
+.submit {
+  margin: 0px;
+  padding: 0;
+  cursor: pointer;
+  text-align: center;
+  width: 330px;
+  height: 25px;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+}
+
+.submit:hover {
+  color: #000;
+  background: #fff;
 }
